@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(72, 206, 239);
+}
+#myFile {
+  /* Style the file input itself */
+  display: block;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  font-size: 16px;
+  border: none;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  /* Add more styles as needed */
+}
+
+#myFile::file-selector-button {
+  /* Style the "Choose File" button */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#myFile::file-selector-button:hover {
+  /* Style the button on hover (optional) */
+  background-color: #0056b3;
+  box-shadow: 0px 15px 20px rgba(46, 141, 229, 0.4);
+  transform: translateY(-7px);
+}
+
+.gundal {
+  height: 100%;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+input[type=submit] {
+    justify-content: center;
+    background-color: #07b2f6;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size:16px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 10px;
+    width: 180px
+  }
